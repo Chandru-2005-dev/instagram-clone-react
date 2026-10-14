@@ -1,0 +1,360 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "virat.kohli",
+      "profileImage": "https://i.pravatar.cc/150?img=12",
+      "postImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+      "caption": "Enjoying the beautiful view! 🌄",
+      "likes": 1250,
+      "comments": 86,
+      "time": "2 hours ago"
+    },
+    {
+      "id": 2,
+      "username": "travel_diaries",
+      "profileImage": "https://i.pravatar.cc/150?img=25",
+      "postImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600",
+      "caption": "Life is better when you travel ✈️🌍",
+      "likes": 845,
+      "comments": 42,
+      "time": "4 hours ago"
+    },
+    {
+      "id": 3,
+      "username": "foodie_world",
+      "profileImage": "https://i.pravatar.cc/150?img=32",
+      "postImage": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
+      "caption": "Healthy food, happy life 🥗",
+      "likes": 567,
+      "comments": 29,
+      "time": "6 hours ago"
+    },
+    {
+      "id": 4,
+      "username": "nature_lovers",
+      "profileImage": "https://i.pravatar.cc/150?img=44",
+      "postImage": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+      "caption": "Nature is the best therapy 🌿",
+      "likes": 2340,
+      "comments": 105,
+      "time": "8 hours ago"
+    },
+    {
+      "id": 5,
+      "username": "tech_world",
+      "profileImage": "https://i.pravatar.cc/150?img=15",
+      "postImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600",
+      "caption": "Building something awesome with code 💻",
+      "likes": 432,
+      "comments": 18,
+      "time": "1 day ago"
+    },
+    {
+      "id": 6,
+      "username": "fitness_life",
+      "profileImage": "https://i.pravatar.cc/150?img=11",
+      "postImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600",
+      "caption": "Push yourself because nobody else will do it for you 💪",
+      "likes": 1560,
+      "comments": 74,
+      "time": "1 day ago"
+    },
+    {
+      "id": 7,
+      "username": "street_photography",
+      "profileImage": "https://i.pravatar.cc/150?img=20",
+      "postImage": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=600",
+      "caption": "Every street has a story 📸",
+      "likes": 923,
+      "comments": 36,
+      "time": "1 day ago"
+    },
+    {
+      "id": 8,
+      "username": "coffee_moments",
+      "profileImage": "https://i.pravatar.cc/150?img=23",
+      "postImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600",
+      "caption": "Coffee first, everything else later ☕",
+      "likes": 678,
+      "comments": 25,
+      "time": "2 days ago"
+    },
+    {
+      "id": 9,
+      "username": "adventure_seeker",
+      "profileImage": "https://i.pravatar.cc/150?img=28",
+      "postImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+      "caption": "The mountains are calling 🏔️",
+      "likes": 1980,
+      "comments": 92,
+      "time": "2 days ago"
+    },
+    {
+      "id": 10,
+      "username": "fashion_diary",
+      "profileImage": "https://i.pravatar.cc/150?img=33",
+      "postImage": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600",
+      "caption": "Style is a way to say who you are 👗",
+      "likes": 3210,
+      "comments": 143,
+      "time": "2 days ago"
+    },
+    {
+      "id": 11,
+      "username": "pet_lovers",
+      "profileImage": "https://i.pravatar.cc/150?img=36",
+      "postImage": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600",
+      "caption": "Happiness is a four-legged friend 🐶❤️",
+      "likes": 2760,
+      "comments": 121,
+      "time": "3 days ago"
+    },
+    {
+      "id": 12,
+      "username": "music_vibes",
+      "profileImage": "https://i.pravatar.cc/150?img=39",
+      "postImage": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600",
+      "caption": "Music makes everything better 🎵",
+      "likes": 1140,
+      "comments": 53,
+      "time": "3 days ago"
+    },
+    {
+      "id": 13,
+      "username": "car_enthusiast",
+      "profileImage": "https://i.pravatar.cc/150?img=41",
+      "postImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600",
+      "caption": "Dream car, dream life 🚗",
+      "likes": 4520,
+      "comments": 218,
+      "time": "3 days ago"
+    },
+    {
+      "id": 14,
+      "username": "sunset_stories",
+      "profileImage": "https://i.pravatar.cc/150?img=42",
+      "postImage": "https://images.unsplash.com/photo-1472120435266-53107fd0c44a?w=600",
+      "caption": "Chasing sunsets and good vibes 🌅",
+      "likes": 1870,
+      "comments": 67,
+      "time": "4 days ago"
+    },
+    {
+      "id": 15,
+      "username": "interior_design",
+      "profileImage": "https://i.pravatar.cc/150?img=45",
+      "postImage": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600",
+      "caption": "A little inspiration for your dream home 🏡",
+      "likes": 2345,
+      "comments": 98,
+      "time": "4 days ago"
+    },
+    {
+      "id": 16,
+      "username": "book_readers",
+      "profileImage": "https://i.pravatar.cc/150?img=47",
+      "postImage": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600",
+      "caption": "A book is a dream you hold in your hands 📚",
+      "likes": 789,
+      "comments": 34,
+      "time": "5 days ago"
+    },
+    {
+      "id": 17,
+      "username": "ocean_views",
+      "profileImage": "https://i.pravatar.cc/150?img=48",
+      "postImage": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600",
+      "caption": "Let the sea set you free 🌊",
+      "likes": 2980,
+      "comments": 134,
+      "time": "5 days ago"
+    },
+    {
+      "id": 18,
+      "username": "coding_journey",
+      "profileImage": "https://i.pravatar.cc/150?img=49",
+      "postImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600",
+      "caption": "One line of code at a time 💻🚀",
+      "likes": 1345,
+      "comments": 61,
+      "time": "6 days ago"
+    },
+    {
+      "id": 19,
+      "username": "delicious_bites",
+      "profileImage": "https://i.pravatar.cc/150?img=50",
+      "postImage": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600",
+      "caption": "Good food is always a good idea 🍽️",
+      "likes": 3890,
+      "comments": 176,
+      "time": "6 days ago"
+    },
+    {
+      "id": 20,
+      "username": "daily_motivation",
+      "profileImage": "https://i.pravatar.cc/150?img=51",
+      "postImage": "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=600",
+      "caption": "Grow through what you go through 🌱",
+      "likes": 2150,
+      "comments": 89,
+      "time": "1 week ago"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "username": "chandru_dev",
+    "fullname": "Chandru",
+    "profilePic": "https://i.pravatar.cc/150?img=12",
+    "posts": 12,
+    "followers": 1250,
+    "following": 350,
+    "bio": "Frontend Developer 💻 | React JS ⚛️ | Building my future 🚀"
+  },
+  "suggestions": [
+    {
+      "id": 1,
+      "username": "rahul_dev",
+      "fullname": "Rahul Kumar",
+      "profilePic": "https://i.pravatar.cc/150?img=11",
+      "followedBy": "Arun"
+    },
+    {
+      "id": 2,
+      "username": "priya_tech",
+      "fullname": "Priya Sharma",
+      "profilePic": "https://i.pravatar.cc/150?img=47",
+      "followedBy": "Karthik"
+    },
+    {
+      "id": 3,
+      "username": "arun_codes",
+      "fullname": "Arun Kumar",
+      "profilePic": "https://i.pravatar.cc/150?img=13",
+      "followedBy": "Rahul"
+    },
+    {
+      "id": 4,
+      "username": "sanjay_dev",
+      "fullname": "Sanjay Raj",
+      "profilePic": "https://i.pravatar.cc/150?img=14",
+      "followedBy": "Vijay"
+    },
+    {
+      "id": 5,
+      "username": "meena_design",
+      "fullname": "Meena Devi",
+      "profilePic": "https://i.pravatar.cc/150?img=44",
+      "followedBy": "Priya"
+    },
+    {
+      "id": 6,
+      "username": "vijay_tech",
+      "fullname": "Vijay Kumar",
+      "profilePic": "https://i.pravatar.cc/150?img=15",
+      "followedBy": "Arun"
+    },
+    {
+      "id": 7,
+      "username": "karthik_web",
+      "fullname": "Karthik S",
+      "profilePic": "https://i.pravatar.cc/150?img=16",
+      "followedBy": "Rahul"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "username": "virat.kohli",
+      "profileImage": "https://i.pravatar.cc/150?img=12",
+      "isViewed": false
+    },
+    {
+      "id": 2,
+      "username": "rohit.sharma",
+      "profileImage": "https://i.pravatar.cc/150?img=13",
+      "isViewed": false
+    },
+    {
+      "id": 3,
+      "username": "ms.dhoni",
+      "profileImage": "https://i.pravatar.cc/150?img=14",
+      "isViewed": true
+    },
+    {
+      "id": 4,
+      "username": "hardik_pandya",
+      "profileImage": "https://i.pravatar.cc/150?img=15",
+      "isViewed": false
+    },
+    {
+      "id": 5,
+      "username": "surya_18",
+      "profileImage": "https://i.pravatar.cc/150?img=16",
+      "isViewed": false
+    },
+    {
+      "id": 6,
+      "username": "travel_diaries",
+      "profileImage": "https://i.pravatar.cc/150?img=17",
+      "isViewed": true
+    },
+    {
+      "id": 7,
+      "username": "nature_lovers",
+      "profileImage": "https://i.pravatar.cc/150?img=18",
+      "isViewed": false
+    }
+  ],
+  "ViewStory": [
+    {
+      "id": 1,
+      "username": "virat.kohli",
+      "profileImage": "https://i.pravatar.cc/150?img=12",
+      "storyImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+      "time": "2 hours ago"
+    },
+    {
+      "id": 2,
+      "username": "msdhoni",
+      "profileImage": "https://i.pravatar.cc/150?img=13",
+      "storyImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+      "time": "3 hours ago"
+    },
+    {
+      "id": 3,
+      "username": "rohit.sharma",
+      "profileImage": "https://i.pravatar.cc/150?img=14",
+      "storyImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+      "time": "1 hour ago"
+    },
+    {
+      "id": 4,
+      "username": "priya",
+      "profileImage": "https://i.pravatar.cc/150?img=47",
+      "storyImage": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+      "time": "30 minutes ago"
+    },
+    {
+      "id": 5,
+      "username": "rahul",
+      "profileImage": "https://i.pravatar.cc/150?img=11",
+      "storyImage": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600",
+      "time": "45 minutes ago"
+    },
+    {
+      "id": 6,
+      "username": "sneha",
+      "profileImage": "https://i.pravatar.cc/150?img=44",
+      "storyImage": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600",
+      "time": "10 minutes ago"
+    },
+    {
+      "id": 7,
+      "username": "arjun",
+      "profileImage": "https://i.pravatar.cc/150?img=15",
+      "storyImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=600",
+      "time": "Just now"
+    }
+  ]
+}
