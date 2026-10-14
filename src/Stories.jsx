@@ -8,11 +8,11 @@ function Stories() {
   let tot = 0;
 
   useEffect(() => {
-    fetch("http://localhost:3000/stories")
-      .then((data) => data.json())
-      .then((data) => setStories(data))
-      .catch((error) => console.log(error));
-  }, []);
+  fetch("/db.json")
+    .then((response) => response.json())
+    .then((data) => setStories(data.stories))
+    .catch((error) => console.log(error));
+}, []); 
 
   return (
     <div className="stories d-flex justify-content-center gap-5">

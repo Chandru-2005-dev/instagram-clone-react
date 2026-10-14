@@ -5,18 +5,18 @@ function Suggestion() {
   const [suggest, setSuggest] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/profile")
-      .then((data) => data.json())
-      .then((data) => setProfile(data))
-      .catch((error) => console.log(error));
-  }, []);
+  fetch("/db.json")
+    .then((response) => response.json())
+    .then((data) => setProfile(data.profile))
+    .catch((error) => console.log(error));
+}, []);
 
   useEffect(() => {
-    fetch("http://localhost:3000/suggestions")
-      .then((data) => data.json())
-      .then((data) => setSuggest(data))
-      .catch((error) => console.log(error));
-  }, []);
+  fetch("/db.json")
+    .then((response) => response.json())
+    .then((data) => setSuggest(data.suggestions))
+    .catch((error) => console.log(error));
+}, []);
 
   return (
     <div className="mt-5 ms-10 mt-12 mb-10 profile " style={{ width: "350px" }}>

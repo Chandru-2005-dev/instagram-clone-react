@@ -9,11 +9,17 @@ function ViewStory() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    fetch(`http://localhost:3000/ViewStory/${id}`)
-      .then((response) => response.json())
-      .then((data) => setStory(data))
-      .catch((error) => console.log(error));
-  }, [id]);
+  fetch("/db.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const selectedStory = data.ViewStory.find(
+        (item) => Number(item.id) === Number(id)
+      );
+
+      setStory(selectedStory || null);
+    })
+    .catch((error) => console.log(error));
+}, [id]);
 
   if(id > tot || id <= 0) {
     navigate("/")
@@ -34,7 +40,7 @@ function ViewStory() {
             <span>{story.username}</span>
             <small className="text-secondary">{story.time}</small>
           </div>
-          <Link to={`http://localhost:5173/story/${Number(id)-1}/${tot}`}><svg
+          <Link to={`/story/${Number(id) - 1}/${tot}`}><svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28 "
@@ -55,7 +61,7 @@ function ViewStory() {
               borderRadius: "10px",
             }}
           />
-          <Link to={`http://localhost:5173/story/${Number(id)+1}/${tot}`}><svg
+          <Link to={`/story/${Number(id) + 1}/${tot}`}><svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28"
