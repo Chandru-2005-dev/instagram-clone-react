@@ -34,7 +34,7 @@ function ViewStory() {
             <span>{story.username}</span>
             <small className="text-secondary">{story.time}</small>
           </div>
-          <Link to={`/story/${Number(id)-1}/${tot}`}><svg
+          <Link to={`http://localhost:5173/story/${Number(id)-1}/${tot}`}><svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28 "
@@ -55,7 +55,7 @@ function ViewStory() {
               borderRadius: "10px",
             }}
           />
-          <Link to={`/story/${Number(id)+1}/${tot}`}><svg
+          <Link to={`http://localhost:5173/story/${Number(id)+1}/${tot}`}><svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28"

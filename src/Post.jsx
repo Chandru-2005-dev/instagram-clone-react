@@ -4,7 +4,7 @@ function Post() {
   const [posts, setPost] = useState([]);
 
   useEffect(() => {
-    fetch("https://YOUR-API-URL.onrender.com/posts")
+    fetch("http://localhost:3000/posts")
       .then((data) => data.json())
       .then((data) => setPost(data))
       .catch((error) => console.log(error));
