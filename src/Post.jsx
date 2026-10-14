@@ -11,11 +11,11 @@ function Post() {
   }, []);
 
   return (
-    <div className="d-flex justify-content-center mt-3">
+    <div className="post-header d-flex align-items-center my-3">
       {posts.length > 0 ? (
-        <div className="mt-5 mb-5">
+        <div className="posts-list mt-3 mb-5">
           {posts.map((post) => (
-            <div key={post.id}>
+            <div key={post.id} className="post-card">
               <div className="d-flex my-5">
                 <img
                   className="rounded-circle mx-3"
@@ -30,7 +30,7 @@ function Post() {
                 </b>
               </div>
               <img className="image" src={post.postImage} />
-              <div className="d-flex gap-1 fs-4 mt-5 mx-3 icon">
+              <div className="d-flex gap-5 fs-4 mt-5 mx-3 icon">
                 <i className="icon bi bi-heart"></i>
                 <i className="icon bi bi-chat"> {post.comments}</i>
                 <i className="icon bi bi-send"></i>

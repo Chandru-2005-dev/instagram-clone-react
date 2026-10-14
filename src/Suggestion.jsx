@@ -19,7 +19,7 @@ function Suggestion() {
 }, []);
 
   return (
-    <div className="mt-5 ms-10 mt-12 mb-10 profile " style={{ width: "350px" }}>
+    <div className="suggestion-panel mt-5 mb-4 mr-10 profile">
       {profile ? (
         <div className="d-flex align-items-center mb-4">
           <img

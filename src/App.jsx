@@ -5,10 +5,18 @@ import Suggestion from "./Suggestion";
 
 function App() {
   return (
-    <div className="d-flex vh-100">
-      <div className="w-20"><SideBar/></div>
-      <div className="w-50"><Feed/></div>
-      <div className="w-30"><Suggestion/></div>
+    <div className="app-layout">
+      <aside className="sidebar-area">
+        <SideBar />
+      </aside>
+
+      <main className="feed-area">
+        <Feed />
+      </main>
+
+      <aside className="suggestion-area">
+        <Suggestion />
+      </aside>
     </div>
   );
 }
