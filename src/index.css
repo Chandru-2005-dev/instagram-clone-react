@@ -261,9 +261,9 @@ body {
 
   .feed-area {
     width: 100%;
-    max-width: 550px;
-    margin: 0 auto;
-    padding: 10px 12px 75px;
+    max-width: none;
+    margin: 10px;
+    padding: 10px 0 75px;
   }
 
   .stories {
@@ -292,10 +292,13 @@ body {
   }
 
   .image {
-    width: 100%;
-    height: auto;
+    display: block;
+    width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
     aspect-ratio: 1 / 1;
-    border-radius: 3px;
+    object-fit: cover;
+    border-radius: 0;
   }
 
   .suggestion-area {
@@ -327,5 +330,19 @@ body {
   .suggestion-area {
     min-width: 0;
     padding: 20px 40px 20px 15px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 1100px) {
+  .feed-area {
+    width: 100%;
+    max-width: 750px;
+  }
+
+  .image {
+    width: 100% !important;
+    max-width: 700px !important;
+    height: 450px !important;
+    object-fit: cover;
   }
 }
